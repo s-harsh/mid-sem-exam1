@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.body {
+    background-color: white;
+    /* background-image: url("/img/bg.jpg"); */
+    background-repeat: no-repeat, repeat;
+    /* background-color:black; */
+  }
+
+
+.navbar {
+  height: 120px;
+  border: 2px solid black;
+  background-color:palegoldenrod;
+  display: inline-flexbox;
+  overflow:auto;
+}
+
+.navbar .logo {
+    height: 100px;
+    margin-left: 10px;
+}
+
+.navbar .logo img {
+  height: 90%;
+  margin-top: 5px;
+  /* border: 2px solid red; */
+}
+
+.navbar .title h1{
+    /* border: 2px solid red; */
+    font-size: 50px;
+    text-align: left;
+}
+
+.navbar .list {
+    margin-top: 70px;
+}
+
+.navbar .list a {
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.login-page {
+    position: absolute;
+    left: 30%;
+    top: 30%;
+    width: 40%;
+    height: 40%;
+    /* background-color:rgb(134, 141, 161); */
+    border: 1px solid black;
+    overflow:auto;
+}
+
+.login-page h1 {
+    font-family: Dosis;
+    font-size: 30px;
+    margin-bottom: 20px;
+    padding: 7px;
+    font-weight: bold;
+    border: 1px solid gray;
+    /* background-color: palegreen; */
+}
+
+
+.box input {
+  width: 60%;
+  margin: 5px 15px;
+  padding: 5px 10px;
+  outline: none;
+  font-size: 15px;
+}
+
+.box i{
+    padding-left:10px  ;
+}
+
+.LogIn-button{
+    cursor: pointer;
+    /* border: 2px solid white; */
+    /* background-color: paleturquoise; */
+    border-radius: 10px;
+    font-size: 20px;
+    height: 40px;
+    top: 77%;
+    width: 35%;
+    position: absolute;
+    left: 30%;
+}
+
+.LogIn-button:hover{
+    font-weight: bold;
+    /* background-color: lightgrey; */
+
+}
+
+.forget-password{
+    margin: 10px;
+    padding: 5px;
+    position: absolute;
+    top: 87%;
+    left: 35%;
+
+}
+
+.footer{
+    position: absolute;
+    top: 95% ;
+    width: 100%;
+    /* border: 1px solid blueviolet;
+    background-color: blue; */
+    /* border: 2px solid red; */
+    /* background-color: gainsboro; */
+}
+
+.social-handle{
+    display: flex;
+    float: right;
+}
+
+.social-handle li{
+    list-style: none;
+    padding: 5px 15px;
+}
+
+.social-handle li a{
+    text-decoration: none;
+}
